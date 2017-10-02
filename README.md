@@ -27,7 +27,7 @@ I will be glad if you can contribute with a batch script to automatically downlo
   
  6- Download pre-trained VGG16 from [here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) and place it as "data\imagenet_weights\vgg16.ckpt"
  
- For rest of the models, please check [here](https://github.com/tensorflow/models/tree/master/slim#pre-trained-models)
+ For rest of the models, please check [here](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models)
  
   7- Run train.py
   
