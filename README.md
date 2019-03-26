@@ -5,6 +5,7 @@ This is the branch to compile Faster R-CNN on Windows. It is heavily inspired by
 
 ### PLEASE BE AWARE: I do not have time or intention to fix all the issues for this branch as I do not use it commercially. I created this branch just for fun. If you want to make any commitment, it is more than welcome. Tensorflow has already released an object detection api. Please refer to it. https://github.com/tensorflow/models/tree/master/research/object_detection
 
+### If you find a solution to an existing issue in the code, please send a PR for it. 
 
 # How To Use This Branch
 1- Install tensorflow, preferably GPU version. Follow [instructions]( https://www.tensorflow.org/install/install_windows). If you do not install GPU version, you need to comment out all the GPU calls inside code and replace them with relavent CPU ones.
