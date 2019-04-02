@@ -148,7 +148,12 @@ class Train:
             blobs = self.data_layer.forward()
 
             # Compute the graph without summary
-            rpn_loss_cls, rpn_loss_box, loss_cls, loss_box, total_loss = self.net.train_step(sess, blobs, train_op)
+            try:
+                rpn_loss_cls, rpn_loss_box, loss_cls, loss_box, total_loss = self.net.train_step(sess, blobs, train_op)
+            except Exception:
+                print('image invalid, skipping')
+                continue
+
             timer.toc()
             iter += 1
 
