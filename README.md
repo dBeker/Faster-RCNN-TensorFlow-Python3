@@ -7,6 +7,8 @@ This is the branch to compile Faster R-CNN on Windows. It is heavily inspired by
 
 ### If you find a solution to an existing issue in the code, please send a PR for it. 
 
+### Also, instead of trying to deal with Tensorflow, use Chainer. It is ready to be used with all the common models https://github.com/chainer/chainercv & https://github.com/chainer/chainer . I can reply all of your questions about Chainer
+
 # How To Use This Branch
 1- Install tensorflow, preferably GPU version. Follow [instructions]( https://www.tensorflow.org/install/install_windows). If you do not install GPU version, you need to comment out all the GPU calls inside code and replace them with relavent CPU ones.
 
