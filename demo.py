@@ -139,7 +139,10 @@ if __name__ == '__main__':
         # net = resnetv1(batch_size=1, num_layers=101)
     else:
         raise NotImplementedError
-    net.create_architecture(sess, "TEST", 21,
+
+    n_classes = len(CLASSES)
+    # create the structure of the net having a certain shape (which depends on the number of classes) 
+    net.create_architecture(sess, "TEST", n_classes,
                             tag='default', anchor_scales=[8, 16, 32])
     saver = tf.train.Saver()
     saver.restore(sess, tfmodel)
