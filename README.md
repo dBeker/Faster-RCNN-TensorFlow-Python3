@@ -27,13 +27,12 @@ Go to ./lib/utils and run `python setup.py build_ext --inplace`
 
 5. Follow [these instructions](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to download PyCoco database.
 I will be glad if you can contribute with a batch script to automatically download and fetch. The final structure has to look like  
-`data/VOCDevkit2007/annotations_cache`  
-`data/VOCDevkit2007/VOC2007`  
+`data\VOCDevkit2007\VOC2007`  
 
-6. Download pre-trained VGG16 from [here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) and place it as `data\imagenet_weights\vgg16.ckpt`.  
+1. Download pre-trained VGG16 from [here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) and place it as `data\imagenet_weights\vgg16.ckpt`.  
 For rest of the models, please check [here](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models)
 
-1. Run train.py
+7. Run train.py
 
 Notify me if there is any issue found. Please note that, I have compiled cython modules with sm61 architecture (GTX 1060, 1070 etc.). Compile support for other architectures will be added.
 
