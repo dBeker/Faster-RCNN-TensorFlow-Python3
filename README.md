@@ -34,5 +34,5 @@ For rest of the models, please check [here](https://github.com/tensorflow/models
 
 7. Run train.py
 
-Notify me if there is any issue found. Please note that, I have compiled cython modules with sm61 architecture (GTX 1060, 1070 etc.). Compile support for other architectures will be added.
+Notify me if there is any issue found.
 
