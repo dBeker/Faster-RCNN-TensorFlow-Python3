@@ -4,3 +4,4 @@ easydict
 Pillow
 matplotlib
 scipy
+tensorflow-gpu==2.10
